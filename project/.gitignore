@@ -1,0 +1,81 @@
+# Основные каталоги и файлы Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Лог-файлы
+*.log
+*.pot
+*.pid
+
+# Виртуальное окружение
+env/
+venv/
+ENV/
+../.venv/
+
+# Файлы конфигурации IDE и редакторов
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+
+# Библиотеки и зависимости
+*.egg
+*.egg-info/
+dist/
+build/
+*.eggs
+pip-log.txt
+
+# Файлы базы данных
+*.sqlite3
+*.db
+
+# Кэш и временные файлы
+*.tmp
+*.temp
+*.cache
+*.pytest_cache/
+coverage/
+.coverage
+
+# Тестовые артефакты
+htmlcov/
+.tox/
+.nox/
+*.test
+
+# Docker
+docker-compose.override.yml
+*.env
+*.env.*
+
+# JWT токены или чувствительные данные
+*.pem
+*.key
+*.crt
+
+# Сгенерированные файлы миграций
+migrations/
+
+# PyInstaller
+*.spec
+
+
+# Файлы операционных систем
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python Poetry
+poetry.lock
+
+# MyPy статический анализ
+.mypy_cache/
+
+#utils
+create_project_structure.sh
